@@ -61275,13 +61275,13 @@ $S:13}
 A.tV.prototype={
 al(){return new A.EC(B.m)}}
 A.EC.prototype={
-J(a){var s,r=this,q=null,p="Posi\xe7\xe3o em 08/06/22",o="\xdaltimos 30 dias",n="I",m="Formas de pagamento",l="\xdaltimo semestre ",k="Vendedores perf.",j=r.f=a.X(t.l).f.a.a*0.98/3.4
-r.r=130
-if(j>210){r.f=210
-j=210}if(j<200)j=r.f=200
-s=A.t2(q,A.hj("Dashboard "+A.k(j),q,q,q,q,q,q))
-j=A.a([r.hX(j,"Contas a Receber",p,500),r.hX(r.f,"Contas a Pagar",p,35520),r.hX(r.f,"Banco do Brasil","C/C 31023-1 em 08/06/22",1098290),r.hX(r.f,"CEF","C/C 11322-91 em 08/06/22",74440),r.hX(r.f,"Caixa Prim\xe1rio",p,48750),r.hX(r.f,"Caixa Reserva",p,2526),r.hX(r.f,"Venda Mensal",o,48710),r.hX(r.f,"Venda Semestral","\xdaltimos 6 meses",389710),r.fI(r.f,"Cancelamentos","No PDV",3,n),r.hX(r.f,"Clientes +faturam","",350349),r.fI(r.f,"Usu\xe1rios ativos","",6,n),r.fI(r.f,"Produtos + vendidos",o,12,n),r.fI(r.f,m,o,16,n),r.fI(r.f,m,l,21,n),r.fI(r.f,"Categorias +vendidas",l,5,n),r.fI(r.f,k,"\xdaltimo 30 dias ",5,n),r.fI(r.f,k,"\xdaltimo semetre ",10,n),r.fI(r.f,"Clientes ativos","Geral",19320,n),r.fI(r.f,"Produtos ativos","Geral",10320,n)],t.F)
-return A.wq(s,A.dx(B.K,A.dx(q,new A.Fr(0.98,0.97,new A.cc(B.Hp,new A.K3(B.aU,!0,new A.Lh(B.C9,B.C9,B.a23,j,q),q),q),q),B.t,q,q,B.CP,q,q,q,q,q,q,q),B.t,q,q,q,q,q,q,q,q,q,q))},
+J(a){var s=this,r=null,q="Posi\xe7\xe3o em 08/06/22",p="\xdaltimos 30 dias",o="I",n="Formas de pagamento",m="\xdaltimo semestre ",l="Vendedores perf.",k=t.l,j=s.f=a.X(k).f.a.a*0.98/3.4
+s.r=130
+if(j>210){s.f=210
+j=210}k=j<200?s.f=a.X(k).f.a.a/2-30:j
+j=A.t2(r,A.hj("Dashboard *"+A.k(k),r,r,r,r,r,r))
+k=A.a([s.hX(k,"Contas a Receber",q,500),s.hX(s.f,"Contas a Pagar",q,35520),s.hX(s.f,"Banco do Brasil","C/C 31023-1 em 08/06/22",1098290),s.hX(s.f,"CEF","C/C 11322-91 em 08/06/22",74440),s.hX(s.f,"Caixa Prim\xe1rio",q,48750),s.hX(s.f,"Caixa Reserva",q,2526),s.hX(s.f,"Venda Mensal",p,48710),s.hX(s.f,"Venda Semestral","\xdaltimos 6 meses",389710),s.fI(s.f,"Cancelamentos","No PDV",3,o),s.hX(s.f,"Clientes +faturam","",350349),s.fI(s.f,"Usu\xe1rios ativos","",6,o),s.fI(s.f,"Produtos + vendidos",p,12,o),s.fI(s.f,n,p,16,o),s.fI(s.f,n,m,21,o),s.fI(s.f,"Categorias +vendidas",m,5,o),s.fI(s.f,l,"\xdaltimo 30 dias ",5,o),s.fI(s.f,l,"\xdaltimo semetre ",10,o),s.fI(s.f,"Clientes ativos","Geral",19320,o),s.fI(s.f,"Produtos ativos","Geral",10320,o)],t.F)
+return A.wq(j,A.dx(B.K,A.dx(r,new A.Fr(0.98,0.97,new A.cc(B.Hp,new A.K3(B.aU,!0,new A.Lh(B.C9,B.C9,B.a23,k,r),r),r),r),B.t,r,r,B.CP,r,r,r,r,r,r,r),B.t,r,r,r,r,r,r,r,r,r,r))},
 fI(a,b,c,d,e){var s,r,q=null,p=new A.hv(B.mv,q,q,new A.cc(B.Hg,A.hj(A.aqk("pt_BR","R$").a0w(0,d),q,q,q,B.BU,q,q),q),q)
 switch(e){case"I":p=new A.hv(B.K,q,q,new A.cc(B.Hf,A.hj(B.f.i(d),q,q,q,B.BU,q,q),q),q)
 break
